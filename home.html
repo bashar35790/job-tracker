@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Traacker</title>
+    <link rel="shortcut icon" href="jobs.png" type="image/x-icon" />
+    <!-- daisyUI setup  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- tailwindcss setup  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome setup  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font setup  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="w-11/12 mx-auto">
+    <!-- 1st section start  -->
+    <section class="py-16">
+      <div class="container space-y-5 mb-8">
+        <h1 class="text-[#002C5C] font-bold text-3xl">
+          Job Application Tracker
+        </h1>
+        <div class="flex gap-4">
+          <!-- card  -->
+          <div
+            class="flex flex-col gap-2.5 p-5 bg-[#FFFFFF] flex-1 rounded-2xl shadow-sm"
+          >
+            <h3 class="text-[14px] font-medium text-[#323B49]">Total</h3>
+            <p class="text-[#002C5C]">8</p>
+          </div>
+
+          <!-- card  -->
+          <div
+            class="flex flex-col gap-2.5 p-5 bg-[#FFFFFF] flex-1 rounded-2xl shadow-sm"
+          >
+            <h3 class="text-[14px] font-medium text-[#323B49]">Interview</h3>
+            <p class="text-[#10B981]">0</p>
+          </div>
+
+          <!-- card  -->
+          <div
+            class="flex flex-col gap-2.5 p-5 bg-[#FFFFFF] flex-1 rounded-2xl shadow-sm"
+          >
+            <h3 class="text-[14px] font-medium text-[#323B49]">Rejected</h3>
+            <p class="text-[#EF4444]">0</p>
+          </div>
+        </div>
+      </div>
+      <hr class="text-[#E6E7E9]" />
+    </section>
+    <!-- 1st section end  -->
+
+    <!-- 2nd section start  -->
+    <section class="pb-16">
+      <div class="container space-y-5 mb-8">
+        <div class="flex justify-between">
+            <h3 class="text-[#002C5C] text-2xl font-semibold">
+              Available Jobs
+            </h1>
+            <p>8 jobs</span>
+        </div>
+        <div class="flex gap-4">
+            <button class="btn bg-[#3B82F6]">All</button>
+            <button class="btn btn-soft">Interview</button>
+            <button class="btn btn-soft">Rejected</button>
+        </div>
+      </div>
+      <hr class="text-[#E6E7E9]" />
+    </section>
+    <!-- 2nd section end  -->
+  </body>
+</html>
