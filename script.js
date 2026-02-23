@@ -74,8 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     state.jobs.forEach((job) => {
       // Determine if the job matches the correct tab rendering logic
       const isVisible =
-        (state.currentTab === "All" && job.status === "none") ||
-        state.currentTab === job.status;
+        state.currentTab === "All" || state.currentTab === job.status;
 
       // Toggle element display
       job.element.style.display = isVisible ? "block" : "none";
